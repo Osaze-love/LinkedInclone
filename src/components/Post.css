@@ -1,0 +1,419 @@
+.Post {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #171f24;
+  padding: 20px 30px;
+  font-size: 14px;
+  border-radius: 7px;
+}
+.PostTop {
+  display: flex;
+  align-items: center;
+}
+.postTopWriteup > h3 {
+  font-size: 14px;
+  margin-right: 40px;
+}
+.postTopWriteup > span {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.postTopWriteup {
+  width: 100%;
+}
+.spanOption {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.morecontents {
+  position: relative;
+}
+.morecontentfeatures {
+  background-color: rgb(44, 42, 42);
+  padding: 10px;
+  z-index: 2;
+  position: absolute;
+  left: -70px;
+  display: none;
+  transition: 0.3s ease-in-out;
+}
+.morecontents.active .morecontentfeatures {
+  display: block;
+}
+.moreIcon {
+  cursor: pointer;
+  padding: 2px;
+  background-color: none;
+  transition: 0.3s ease-in-out;
+  border-radius: 50%;
+}
+.moreIcon:hover {
+  background-color: rgb(44, 42, 42);
+}
+.postTopWriteup > p {
+  color: gray;
+}
+.PostTop > .Avatar {
+  margin-right: 10px;
+}
+
+.PostMessage {
+  word-break: break-all;
+  padding: 20px 0;
+  margin-bottom: 20px;
+}
+.PostMessageImage {
+  padding: 20px 20px;
+  position: relative;
+  width: 100%;
+  height: 400px;
+}
+.reactPlayer {
+  padding: 20px 0px;
+  position: relative;
+  width: 100%;
+  height: 400px;
+}
+
+.PostMessageImage img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.PostMessage form {
+  padding-top: 4px;
+  display: none;
+}
+.PostMessage form.active {
+  display: block;
+}
+
+.PostMessage input {
+  color: white;
+  background: none;
+  border: 1px solid gray;
+  border-radius: 20px;
+  margin-right: 10px;
+  padding: 4px 10px;
+  width: 100%;
+  margin: 10px 0;
+}
+.PostMessage input:focus {
+  outline: none;
+}
+.PostMessage button {
+  margin: 10px 0;
+  padding: 4px 10px;
+  color: white;
+  background: none;
+  border: 1px solid gray;
+}
+.PostButtons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid gray;
+  padding-top: 4px;
+  max-width: 100%;
+}
+.PostButton1,
+.PostButton2,
+.PostButton3,
+.PostButton4 {
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  transition: 0.3s ease-in-out;
+  padding: 10px;
+}
+.PostButton1:hover {
+  background-color: #2e363b;
+}
+.PostButton2:hover {
+  background-color: #2e363b;
+}
+.PostButton3:hover {
+  background-color: #2e363b;
+}
+.PostButton4:hover {
+  background-color: #2e363b;
+}
+.icon {
+  margin-right: 7px;
+}
+.comment {
+  padding: 20px 0;
+  display: none;
+}
+.active {
+  display: block;
+}
+.commentTop {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 20px 0;
+}
+.commentTop form {
+  width: 100%;
+  flex: 1;
+  border: 1px solid gray;
+  padding: 4px 10px;
+  display: flex;
+  border-radius: 30px;
+}
+.commentTop form input {
+  background: none;
+  flex: 0.9;
+  padding: 4px;
+  color: white;
+  border: none;
+}
+.commentTop form input:focus {
+  outline: none;
+}
+.commentTop form button {
+  flex: 0.1;
+
+  padding: 4px;
+  color: white;
+  border: none;
+  background: none;
+  font-weight: lighter;
+}
+.ImageChangedEdit {
+  background-color: #272a2c;
+  width: fit-content;
+  padding: 4px 10px;
+  display: flex;
+  align-items: center;
+  font-size: 13px;
+}
+@media screen and (max-width: 1000px) {
+  .Post {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #171f24;
+    padding: 20px 20px;
+    font-size: 14px;
+    border-radius: 7px;
+  }
+  .PostTop {
+    display: flex;
+    align-items: center;
+  }
+  .postTopWriteup > h3 {
+    font-size: 14px;
+  }
+
+  .postTopWriteup > p {
+    color: gray;
+  }
+  .PostTop > .Avatar {
+    margin-right: 10px;
+  }
+  .PostMessage {
+    position: relative;
+    max-width: 100%;
+    padding: 20px 0;
+  }
+  .PostButtons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100%;
+    font-size: 13px;
+  }
+  .PostButton1,
+  .PostButton2,
+  .PostButton3,
+  .PostButton4 {
+    display: flex;
+    align-items: center;
+  }
+  .icon {
+    font-size: 13px;
+    margin-right: 7px;
+  }
+  .PostMessageImage {
+    padding: 20px 10px;
+    position: relative;
+    width: 100%;
+    height: 400px;
+  }
+  .PostMessageImage img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+@media screen and (max-width: 475px) {
+  .PostButtons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100%;
+    font-size: 11px;
+  }
+  .PostButton1,
+  .PostButton2,
+  .PostButton3,
+  .PostButton4 {
+    display: flex;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 400px) {
+  .PostButtons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100%;
+    font-size: 9px;
+  }
+  .PostButton1,
+  .PostButton2,
+  .PostButton3,
+  .PostButton4 {
+    display: flex;
+    align-items: center;
+  }
+  .commentTop {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 20px 0;
+  }
+  .commentTop form {
+    width: 90%;
+    position: relative;
+    flex: 1;
+    border: 1px solid gray;
+    padding: 4px 10px;
+    display: flex;
+    border-radius: 30px;
+  }
+  .commentTop form input {
+    background: none;
+    flex: 0.9;
+    position: relative;
+    word-break: break-all;
+    padding: 4px;
+    color: white;
+    border: none;
+  }
+  .commentTop form input:focus {
+    outline: none;
+  }
+  .commentTop form button {
+    flex: 0.1;
+    position: relative;
+    padding: 4px;
+    right: 60px;
+    color: white;
+    border: none;
+    background: none;
+    font-size: 10px;
+    font-weight: lighter;
+  }
+}
+@media screen and (max-width: 320px) {
+  .PostButtons {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    border-top: 1px solid gray;
+    padding-top: 4px;
+    max-width: 100%;
+  }
+  .commentTop {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+    padding: 20px 0;
+  }
+  .commentTop form {
+    width: 100%;
+    position: relative;
+
+    flex: 1;
+    border: 1px solid gray;
+    padding: 4px 10px;
+    display: flex;
+    border-radius: 30px;
+  }
+  .commentTop form input {
+    background: none;
+    flex: 0.9;
+    position: relative;
+    padding: 4px;
+    color: white;
+    border: none;
+  }
+  .commentTop form input:focus {
+    outline: none;
+  }
+  .commentTop form button {
+    flex: 0.1;
+    position: relative;
+
+    color: white;
+    border: none;
+    background: none;
+    font-size: 10px;
+    font-weight: lighter;
+  }
+}
+@media screen and (max-width: 280px) {
+  .PostButtons {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    border-top: 1px solid gray;
+    padding-top: 4px;
+    max-width: 100%;
+  }
+  .commentTop {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+    padding: 20px 0;
+  }
+  .commentTop form {
+    width: 100%;
+    position: relative;
+    flex-wrap: wrap;
+    flex: 1;
+    border: 1px solid gray;
+    padding: 4px 10px;
+    display: flex;
+    border-radius: 30px;
+  }
+  .commentTop form input {
+    background: none;
+    flex: 0.9;
+    position: relative;
+    padding: 4px;
+    color: white;
+    border: none;
+  }
+  .commentTop form input:focus {
+    outline: none;
+  }
+  .commentTop form button {
+    flex: 0.1;
+    position: relative;
+
+    color: white;
+    border: none;
+    background: none;
+    font-size: 10px;
+    font-weight: lighter;
+  }
+}

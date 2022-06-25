@@ -1,0 +1,164 @@
+.SignIn {
+  height: 100vh;
+  color: black;
+  padding: 10px 70px;
+}
+.SignInImage {
+  width: 140px;
+  display: inline-block;
+}
+.SignInImage img {
+  width: 100%;
+}
+.SignIn .form {
+  margin: 40px auto;
+  padding: 20px;
+  border: 2px solid gray;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px gray;
+  max-width: fit-content;
+}
+.SignIn p {
+  font-size: 17px;
+}
+.SignIn .formInput {
+  display: flex;
+  flex-direction: column;
+}
+.SignIn .formInput input {
+  border-radius: 4px;
+  height: 40px;
+  padding: 10px;
+  border: 2px solid gray;
+  margin: 10px 0;
+}
+.forgot {
+  color: #0a66c2;
+  font-size: 17px;
+  font-weight: bold;
+  padding: 10px 14px;
+  display: inline-block;
+  border-radius: 4px;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
+.forgot:hover {
+  background-color: lightblue;
+}
+.SignIn .form button {
+  cursor: pointer;
+  margin: 10px 0;
+  color: white;
+  background-color: #0a66c2;
+  border: none;
+  padding: 10px 0;
+  border-radius: 17px;
+  width: 100%;
+  transition: 0.3s ease-in-out;
+}
+.SignIn .form button:hover {
+  background-color: #04315e;
+}
+.SignIn .form span {
+  display: flex;
+}
+.SignIn .form .new {
+  margin-right: 10px;
+}
+.SignIn .form .Join {
+  color: #0a66c2;
+  padding: 0 4px;
+  transition: 0.3s;
+}
+.SignIn span a {
+  cursor: pointer;
+  text-decoration: none;
+}
+.SignIn .form .Join:hover {
+  background-color: lightblue;
+}
+@media screen and (max-width: 425px) {
+  .SignIn {
+    height: 100vh;
+    color: black;
+    padding: 10px 20px;
+  }
+  .SignInImage {
+    width: 140px;
+    display: inline-block;
+  }
+  .SignInImage img {
+    width: 100%;
+  }
+  .SignIn .form {
+    text-align: center;
+    margin: 40px auto;
+    padding: 20px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px gray;
+    max-width: fit-content;
+  }
+  .SignIn p {
+    font-size: 14px;
+  }
+  .SignIn .formInput {
+    display: flex;
+    flex-direction: column;
+  }
+  .SignIn .formInput input {
+    border-radius: 4px;
+    height: 40px;
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px 0;
+  }
+  .forgot {
+    color: #0a66c2;
+    font-size: 17px;
+    font-weight: bold;
+    padding: 10px 14px;
+    display: inline-block;
+    border-radius: 4px;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+  }
+  .forgot:hover {
+    background-color: lightblue;
+  }
+  .SignIn .form button {
+    cursor: pointer;
+    margin: 10px 0;
+    color: white;
+    background-color: #0a66c2;
+    border: none;
+    padding: 10px 0;
+    border-radius: 17px;
+    width: 100%;
+    transition: 0.3s ease-in-out;
+  }
+  .SignIn .form button:hover {
+    background-color: #04315e;
+  }
+  .SignIn .form span {
+    display: flex;
+  }
+  .SignIn .form .new {
+    margin-right: 10px;
+  }
+  .SignIn .form .Join {
+    color: #0a66c2;
+    padding: 0 4px;
+    transition: 0.3s;
+  }
+  .SignIn span a {
+    cursor: pointer;
+    text-decoration: none;
+  }
+  .SignIn .form .Join:hover {
+    background-color: lightblue;
+  }
+  .SignIn span p {
+    font-size: 14px;
+  }
+}

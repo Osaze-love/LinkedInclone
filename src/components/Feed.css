@@ -1,0 +1,311 @@
+.feed {
+  color: white;
+  flex: 0.6;
+}
+.feedTop {
+  margin-top: 10px;
+  background-color: #171f24;
+  padding: 10px 20px;
+  border-radius: 7px;
+}
+.feedInputSection {
+  padding: 10px;
+  position: relative;
+  display: flex;
+}
+.feedInputSection > .feedInputSectionAvatar {
+  flex: 0.1;
+  margin-right: 7px;
+}
+.feedInputSection > .feedInputSectionForm {
+  display: flex;
+  justify-content: space-between;
+  flex: 0.9;
+  padding: 0 20px;
+  color: white;
+  background: none;
+  border: 1px solid gray;
+  border-radius: 10px;
+}
+.feedInputSectionForm > input {
+  background: none;
+  border: none;
+  color: white;
+  width: 100%;
+}
+.feedInputSectionForm > input:focus {
+  outline: none;
+}
+.feedInputSectionForm > button {
+  cursor: pointer;
+  background: none;
+  color: white;
+  padding: 4px;
+  border: none;
+}
+.imageAddedDetails {
+  display: flex;
+  align-items: center;
+  margin: 10px 20px;
+  padding: 10px;
+  font-size: 12px;
+  width: fit-content;
+  background-color: #242b30;
+}
+.videoInput {
+  position: relative;
+  width: 100%;
+  padding: 10px 10px;
+}
+.videoInput input {
+  width: 100%;
+  display: none;
+  background: none;
+  border: 1px solid gray;
+  border-radius: 20px;
+  color: white;
+  padding: 7px 20px;
+}
+.videoInput input.active {
+  display: block;
+}
+.videoInput input:focus {
+  outline: none;
+}
+.feedActivities {
+  display: flex;
+  justify-content: space-evenly;
+}
+.Activity1,
+.Activity2,
+.Activity3,
+.Activity4 {
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  padding: 10px;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.Activity4:hover {
+  background-color: gray;
+}
+.Activity1:hover {
+  background-color: gray;
+}
+.ActivityOne {
+  display: flex;
+  align-items: center;
+}
+.Activity3:hover {
+  background-color: gray;
+}
+.Activity2:hover {
+  background-color: gray;
+}
+.photoIcon {
+  margin-right: 10px;
+  color: #7085f9;
+}
+.youtubeIcon {
+  margin-right: 10px;
+  color: rgb(124, 189, 124);
+}
+.eventIcon {
+  margin-right: 10px;
+  color: #e7a33e;
+}
+.calendarIcon {
+  margin-right: 10px;
+  color: rgb(235, 150, 164);
+}
+@media screen and (max-width: 1000px) {
+  .feedTop {
+    margin-top: 0px;
+    background-color: #171f24;
+    padding: 10px 20px;
+    border-radius: 7px;
+  }
+  .feedInputSection {
+    padding: 10px;
+    position: relative;
+    display: flex;
+  }
+  .feedInputSection > .feedInputSectionAvatar {
+    flex: 0.1;
+    margin-right: 10px;
+  }
+  .feedInputSection > .feedInputSectionForm {
+    display: flex;
+    justify-content: space-between;
+    flex: 0.9;
+    padding: 0 20px;
+    color: white;
+    background: none;
+    border: 1px solid gray;
+    border-radius: 10px;
+  }
+  .feedInputSectionForm > input {
+    color: white;
+    width: 100%;
+    background: none;
+    border: none;
+  }
+  .feedInputSectionForm > button {
+    cursor: pointer;
+    background: none;
+    color: white;
+    padding: 4px 10px;
+    border: none;
+  }
+  .feedActivities {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .Activity1,
+  .Activity2,
+  .Activity3,
+  .Activity4 {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    padding: 10px;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+  }
+
+  .Activity4:hover {
+    background-color: gray;
+  }
+  .Activity1:hover {
+    background-color: gray;
+  }
+  .Activity3:hover {
+    background-color: gray;
+  }
+  .Activity2:hover {
+    background-color: gray;
+  }
+  .photoIcon {
+    margin-right: 10px;
+    color: #7085f9;
+  }
+  .youtubeIcon {
+    margin-right: 10px;
+    color: rgb(124, 189, 124);
+  }
+  .eventIcon {
+    margin-right: 10px;
+    color: #e7a33e;
+  }
+  .calendarIcon {
+    margin-right: 10px;
+    color: rgb(235, 150, 164);
+  }
+}
+@media screen and (max-width: 475px) {
+  .feedTop {
+    margin-top: 0px;
+    background-color: #171f24;
+    padding: 10px 10px;
+    border-radius: 7px;
+  }
+  .feedInputSection {
+    padding: 10px;
+    position: relative;
+    display: flex;
+  }
+  .feedInputSection > .feedInputSectionAvatar {
+    flex: 0.1;
+    margin-right: 10px;
+  }
+  .feedInputSection > .feedInputSectionForm {
+    display: flex;
+    justify-content: space-between;
+    flex: 0.9;
+    padding: 0 20px;
+    color: white;
+    background: none;
+    border: 1px solid gray;
+    border-radius: 10px;
+  }
+  .feedInputSectionForm > input {
+    color: white;
+    width: 100%;
+    background: none;
+    border: none;
+  }
+  .feedInputSectionForm > button {
+    cursor: pointer;
+    background: none;
+    color: white;
+    padding: 4px 10px;
+    border: none;
+  }
+  .feedActivities {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .Activity1,
+  .Activity2,
+  .Activity3,
+  .Activity4 {
+    display: flex;
+    align-items: center;
+    font-size: 10px;
+    padding: 10px;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+  }
+
+  .Activity4:hover {
+    background-color: gray;
+  }
+  .Activity1:hover {
+    background-color: gray;
+  }
+  .Activity3:hover {
+    background-color: gray;
+  }
+  .Activity2:hover {
+    background-color: gray;
+  }
+  .photoIcon {
+    margin-right: 10px;
+    color: #7085f9;
+  }
+  .youtubeIcon {
+    margin-right: 10px;
+    color: rgb(124, 189, 124);
+  }
+  .eventIcon {
+    margin-right: 10px;
+    color: #e7a33e;
+  }
+  .calendarIcon {
+    margin-right: 10px;
+    color: rgb(235, 150, 164);
+  }
+}
+@media screen and (max-width: 375px) {
+  .Activity1,
+  .Activity2,
+  .Activity3,
+  .Activity4 {
+    display: flex;
+    align-items: center;
+    font-size: 10px;
+    text-align: center;
+    padding: 10px;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+  }
+}
+@media screen and (max-width: 320px) {
+  .feedActivities {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+}

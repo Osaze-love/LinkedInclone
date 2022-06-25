@@ -1,0 +1,127 @@
+.join {
+  margin-top: 30px;
+  height: 100vh;
+  color: black;
+}
+
+.joinImage {
+  margin: 0 auto;
+  width: 140px;
+}
+.joinImage img {
+  width: 100%;
+}
+.join .themost {
+  display: flex;
+  justify-content: center;
+  font-size: 27px;
+}
+.join .form {
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: 2px solid gray;
+  width: 400px;
+  margin: 30px auto;
+}
+.join .form .input1 {
+  margin: 20px 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.join .form .input2 {
+  margin: 20px 0;
+  display: flex;
+  flex-direction: column;
+}
+.join .form .input3 {
+  margin: 20px 0;
+  display: flex;
+  flex-direction: column;
+}
+.join .form .input4 {
+  margin: 20px 0;
+  display: flex;
+  flex-direction: column;
+}
+.join .form label {
+  font-size: 14px;
+}
+.join .form input {
+  padding: 10px;
+  border: 2px solid gray;
+}
+.join button {
+  width: 100%;
+  padding: 10px 10px;
+  background-color: #0a66c2;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+.join button:hover {
+  background-color: #04315e;
+}
+.join .already {
+  margin-right: 10px;
+}
+.join .signIn {
+  color: #0a66c2;
+  cursor: pointer;
+  padding: 0 4px;
+  transition: 0.3s ease-in-out;
+}
+.join .signIn:hover {
+  background-color: lightblue;
+}
+.join span a {
+  text-decoration: none;
+}
+
+span {
+  margin-top: 10px;
+  display: flex;
+  text-decoration: none;
+}
+@media screen and (max-width: 576px) {
+  .join .themost {
+    display: flex;
+    padding-top: 10px;
+    justify-content: center;
+    font-size: 22px;
+  }
+  .join .form {
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    width: 400px;
+    margin: 30px auto;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .join .themost {
+    display: flex;
+    padding-top: 10px;
+    justify-content: center;
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .joinImage {
+    margin: 0 auto;
+    width: 120px;
+  }
+  .joinImage img {
+    width: 100%;
+  }
+  .join .themost {
+    display: flex;
+    padding-top: 10px;
+    justify-content: center;
+    font-size: 14px;
+  }
+}

@@ -1,0 +1,288 @@
+.Main {
+  height: 100vh;
+  color: black;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 70px;
+}
+.navImage {
+  width: 140px;
+}
+.navImage img {
+  width: 100%;
+}
+.nav ul {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.nav ul a {
+  text-decoration: none;
+}
+.nav ul li {
+  list-style: none;
+  margin-right: 30px;
+}
+.navJoin {
+  color: black;
+  transition: 0.3s ease-in-out;
+  padding: 10px 20px;
+  border-radius: 4px;
+}
+.navJoin:hover {
+  background-color: lightgray;
+}
+.navSignIn {
+  color: #0a66c2;
+  padding: 7px 30px;
+  background: none;
+  border: 2px ridge #0a66c2;
+  border-radius: 22px;
+  transition: 0.3s ease-in-out;
+}
+.navSignIn:hover {
+  background-color: rgb(241, 245, 247);
+}
+@media screen and (max-width: 768px) {
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 40px;
+  }
+  .navImage {
+    width: 130px;
+  }
+  .navImage img {
+    width: 100%;
+  }
+  .nav ul {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  .nav ul a {
+    text-decoration: none;
+  }
+  .nav ul li {
+    list-style: none;
+    margin-right: 4px;
+  }
+  .navJoin {
+    color: black;
+    font-size: 15px;
+    transition: 0.3s ease-in-out;
+    padding: 4px 20px;
+    border-radius: 4px;
+  }
+  .navJoin:hover {
+    background-color: lightgray;
+  }
+  .navSignIn {
+    color: #0a66c2;
+    padding: 4px 20px;
+    font-size: 15px;
+    background: none;
+    border: 2px ridge #0a66c2;
+    border-radius: 22px;
+    transition: 0.3s ease-in-out;
+  }
+  .navSignIn:hover {
+    background-color: rgb(241, 245, 247);
+  }
+}
+@media screen and (max-width: 576px) {
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+  }
+  .navImage {
+    width: 120px;
+  }
+  .navImage img {
+    width: 100%;
+  }
+  .nav ul {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  .nav ul a {
+    text-decoration: none;
+  }
+  .nav ul li {
+    list-style: none;
+    margin-right: 4px;
+  }
+  .navJoin {
+    color: black;
+    font-size: 15px;
+    transition: 0.3s ease-in-out;
+    padding: 4px 20px;
+    border-radius: 4px;
+  }
+  .navJoin:hover {
+    background-color: lightgray;
+  }
+  .navSignIn {
+    color: #0a66c2;
+    padding: 4px 20px;
+    font-size: 15px;
+    background: none;
+    border: 2px ridge #0a66c2;
+    border-radius: 22px;
+    transition: 0.3s ease-in-out;
+  }
+  .navSignIn:hover {
+    background-color: rgb(241, 245, 247);
+  }
+}
+@media screen and (max-width: 360px) {
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px;
+  }
+  .navImage {
+    width: 100px;
+  }
+  .navImage img {
+    width: 100%;
+  }
+  .nav ul {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  .nav ul a {
+    text-decoration: none;
+  }
+  .nav ul li {
+    list-style: none;
+    margin-right: 4px;
+  }
+  .navJoin {
+    color: black;
+    font-size: 15px;
+    transition: 0.3s ease-in-out;
+    padding: 4px 20px;
+    border-radius: 4px;
+  }
+  .navJoin:hover {
+    background-color: lightgray;
+  }
+  .navSignIn {
+    color: #0a66c2;
+    padding: 4px 20px;
+    font-size: 15px;
+    background: none;
+    border: 2px ridge #0a66c2;
+    border-radius: 22px;
+    transition: 0.3s ease-in-out;
+  }
+  .navSignIn:hover {
+    background-color: rgb(241, 245, 247);
+  }
+}
+@media screen and (max-width: 280px) {
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10px;
+  }
+  .navImage {
+    width: 90px;
+  }
+  .navImage img {
+    width: 100%;
+  }
+  .nav ul {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  .nav ul a {
+    text-decoration: none;
+  }
+  .nav ul li {
+    list-style: none;
+    margin-right: 4px;
+  }
+  .navJoin {
+    color: black;
+    font-size: 13px;
+    transition: 0.3s ease-in-out;
+    padding: 4px 10px;
+    border-radius: 4px;
+  }
+  .navJoin:hover {
+    background-color: lightgray;
+  }
+  .navSignIn {
+    color: #0a66c2;
+    padding: 4px 10px;
+    font-size: 13px;
+    background: none;
+    border: 2px ridge #0a66c2;
+    border-radius: 22px;
+    transition: 0.3s ease-in-out;
+  }
+  .navSignIn:hover {
+    background-color: rgb(241, 245, 247);
+  }
+}
+@media screen and (max-width: 320px) {
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10px;
+  }
+  .navImage {
+    width: 90px;
+  }
+  .navImage img {
+    width: 100%;
+  }
+  .nav ul {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  .nav ul a {
+    text-decoration: none;
+  }
+  .nav ul li {
+    list-style: none;
+    margin-right: 4px;
+  }
+  .navJoin {
+    color: black;
+    font-size: 13px;
+    transition: 0.3s ease-in-out;
+    padding: 4px 10px;
+    border-radius: 4px;
+  }
+  .navJoin:hover {
+    background-color: lightgray;
+  }
+  .navSignIn {
+    color: #0a66c2;
+    padding: 4px 10px;
+    font-size: 13px;
+    background: none;
+    border: 2px ridge #0a66c2;
+    border-radius: 22px;
+    transition: 0.3s ease-in-out;
+  }
+  .navSignIn:hover {
+    background-color: rgb(241, 245, 247);
+  }
+}

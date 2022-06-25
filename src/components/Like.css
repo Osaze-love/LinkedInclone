@@ -1,0 +1,26 @@
+.like {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+.thumbIcon {
+  margin-right: 4px;
+}
+.likesection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+.likeCount {
+  transition: 0.3s ease-in-out;
+  font-size: 14px;
+  top: -38px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  position: absolute;
+}
+.likeCount p {
+  margin-right: 4px;
+}

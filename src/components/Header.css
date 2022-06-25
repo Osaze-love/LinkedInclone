@@ -1,0 +1,259 @@
+.header {
+  top: 0;
+  position: sticky;
+  padding: 10px 70px;
+  display: flex;
+  width: 100%;
+  z-index: 10;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(24, 24, 24, 0.8);
+  transition: 0.3s ease-in-out;
+}
+
+.headerLeft > img {
+  height: 34px;
+  object-fit: contain;
+  margin-right: 10px;
+  filter: invert(1);
+}
+.headerLeft {
+  align-items: center;
+  display: flex;
+}
+.headerLeftSearchContents {
+  padding: 4px 20px;
+  display: flex;
+  color: rgb(207, 205, 205);
+  align-items: center;
+  background-color: #11181d;
+  border-radius: 4px;
+}
+.headerLeftSearch {
+  background-color: #11181d;
+  margin-right: 40px;
+}
+.headerLeftSearchContents > input {
+  border: none;
+  background-color: #11181d;
+}
+.headerLeftSearchContents > input::placeholder {
+  color: rgb(207, 205, 205);
+}
+.headerRight {
+  display: flex;
+  align-items: center;
+}
+.headerRightContent {
+  display: flex;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+  flex-direction: column;
+  align-items: center;
+  font-size: 10px;
+
+  color: rgb(207, 205, 205);
+  margin-right: 40px;
+}
+.headerRightContent:hover {
+  color: white;
+}
+.headerRightContent h3 {
+  font-weight: lighter;
+  text-align: center;
+}
+.headerRightContent button {
+  background: none;
+  color: white;
+  padding: 7px 17px;
+  border: 2px solid gray;
+  cursor: pointer;
+}
+@media screen and (max-width: 1000px) {
+  .header {
+    padding: 10px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(24, 24, 24, 0.8);
+    transition: 0.3s ease-in-out;
+  }
+
+  .headerLeft > img {
+    height: 34px;
+    object-fit: contain;
+    margin-right: 10px;
+    filter: invert(1);
+  }
+  .headerLeft {
+    align-items: center;
+    display: flex;
+  }
+  .headerLeftSearchContents {
+    padding: 4px 20px;
+    display: flex;
+    color: rgb(207, 205, 205);
+    align-items: center;
+    background-color: #11181d;
+    border-radius: 4px;
+  }
+  .headerLeftSearch {
+    background-color: #11181d;
+  }
+  .headerLeftSearchContents > input {
+    border: none;
+
+    background-color: #11181d;
+  }
+  .headerLeftSearchContents > input::placeholder {
+    color: rgb(207, 205, 205);
+  }
+  .headerRight {
+    display: flex;
+    align-items: center;
+  }
+  .headerRightContent {
+    display: flex;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+    flex-direction: column;
+    align-items: center;
+    font-size: 10px;
+    text-align: center;
+    color: rgb(207, 205, 205);
+    margin-right: 40px;
+  }
+  .headerRightContent:hover {
+    color: white;
+  }
+  .headerRightContent h3 {
+    display: none;
+    font-weight: lighter;
+    text-align: center;
+  }
+  .headerRightContent button {
+    background: none;
+    color: white;
+    padding: 7px 17px;
+    border: 2px solid gray;
+    cursor: pointer;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .header {
+    padding: 10px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(24, 24, 24, 0.8);
+    transition: 0.3s ease-in-out;
+  }
+
+  .headerLeft > img {
+    height: 34px;
+    object-fit: contain;
+    margin-right: 10px;
+    filter: invert(1);
+  }
+  .headerLeft {
+    align-items: center;
+    display: flex;
+  }
+  .headerLeftSearchContents {
+    padding: 4px 20px;
+    display: flex;
+    color: rgb(207, 205, 205);
+    align-items: center;
+    background-color: #11181d;
+    border-radius: 4px;
+  }
+  .headerLeftSearch {
+    background-color: #11181d;
+  }
+  .headerLeftSearchContents > input {
+    border: none;
+    display: none;
+    background-color: #11181d;
+  }
+  .headerLeftSearchContents > input::placeholder {
+    color: rgb(207, 205, 205);
+  }
+  .headerRight {
+    display: flex;
+    align-items: center;
+  }
+  .headerRightContent {
+    display: flex;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+    flex-direction: column;
+    align-items: center;
+    font-size: 10px;
+
+    color: rgb(207, 205, 205);
+    margin-right: 20px;
+  }
+  .homeIcon {
+    display: none;
+  }
+  .headerRightContent:hover {
+    color: white;
+  }
+  .headerRightContent h3 {
+    display: none;
+    font-weight: lighter;
+    text-align: center;
+  }
+  .headerRightContent button {
+    background: none;
+    color: white;
+    padding: 7px 17px;
+    border: 2px solid gray;
+    cursor: pointer;
+  }
+}
+@media screen and (max-width: 576px) {
+  .header {
+    padding: 10px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(24, 24, 24, 0.8);
+    transition: 0.3s ease-in-out;
+  }
+}
+@media screen and (max-width: 475px) {
+  .thejobs {
+    display: none;
+  }
+  .thesupervisor {
+    display: none;
+  }
+  .thechat {
+    display: none;
+  }
+  .thebell {
+    display: none;
+  }
+  .headerLeft {
+    align-items: center;
+    display: flex;
+    margin-left: 20px;
+  }
+}
+@media screen and (min-width: 2500px) {
+  .header {
+    padding: 10px 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(24, 24, 24, 0.8);
+    transition: 0.3s ease-in-out;
+  }
+}
+@media screen and (max-width: 280px) {
+  .thehome {
+    display: none;
+  }
+}
